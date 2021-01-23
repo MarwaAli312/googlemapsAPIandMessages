@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.findme.MainActivity">
+    <item
+        android:id="@+id/action_sendmylocation"
+        android:orderInCategory="100"
+        android:title="Send My Location"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never"
+        />
+</menu>
